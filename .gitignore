@@ -1,0 +1,17 @@
+# 개인 API 키 및 설정 파일
+.env
+
+# 파이썬 가상환경 및 캐시
+__pycache__/
+.venv/
+*.pyc
+
+# 구글 인증 관련 (보안 필수)
+.tokens/
+token.json
+credentials.json
+
+# 로컬 데이터베이스 및 임시 데이터
+smart_mailbox.db
+data.json
+*.log
